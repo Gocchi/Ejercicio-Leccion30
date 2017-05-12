@@ -1,0 +1,21 @@
+*{
+
+}
+html,body,.container{
+	background-image: url(../img/kawaiiCat.jpg);
+	width: 100%; 
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+p{
+	color: lightpink;
+	font-size: 80px;
+}
+
+@media (max-width: 320px){
+	p{
+		color: lightblue;
+		text-align: center;
+		font-size: 40px;
+	}
+}
